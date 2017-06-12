@@ -14,7 +14,7 @@ sub check_required {
 	foreach my $item (@required) {
 		if (not exists $whos_items{$item}) {
 			push @missing_items, $item; 
-		}else {
+		} else {
 			push @common_items, $item;
 		}
 	}
