@@ -24,9 +24,9 @@ sub check_required {
 			push @extra_items, $extra;
 		}
 	}
-	print "Missing Items:  @missing_items\n";
-	print "Common  Items:  @common_items\n";
-	print "Extra   Items:  @extra_items\n";
+	print "Missing Items for $who:  @missing_items\n";
+	print "Common  Items for $who:  @common_items\n";
+	print "Extra   Items for $who:  @extra_items\n";
 	
 }
 
